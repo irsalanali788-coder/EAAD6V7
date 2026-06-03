@@ -58,7 +58,7 @@ def bypass_check(user_key):
     print(f"║ {Fore.YELLOW}YOUR KEY : {Fore.GREEN}{user_key}{Fore.WHITE}║")
     print(f"╚════════════════════════════════════════════════╝")
     print(f"{Fore.CYAN}Hello Muddassir! Please Approve My Key: ")
-    os.system(f'am start https://wa.me/+919235741670?text={quote(user_key)} >/dev/null 2>&1')
+    os.system(f'am start https://wa.me/+923243037456?text={quote(user_key)} >/dev/null 2>&1')
     print(f"📲 Checking Live Approval (No-Cache Mode)...")
     while True:
         try:
