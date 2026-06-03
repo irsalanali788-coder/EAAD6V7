@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
 DECODED from TOKEN.py / script.py
-Tool Name: TOKEN GRENADE V7 - POWERED BY LeGend-X PRODUCTION
-Owner: Muddassir-X (+923243037456)
-Email: muddassirhussain75@gmail.com
+Tool Name: TOKEN GRENADE V7 - POWERED BY L3G3ND-X PRODUCTION
+Owner: L3G3ND-X (+923243037456)
+Email: Legendxproduction@gmail.com
 Price: 200₹ / Monthly
 
 Original obfuscated by PyObfuscate
@@ -39,14 +39,14 @@ except ImportError:
 
 # --- Approval System ---
 APPROVAL_URL = "https://raw.githubusercontent.com/irsalanali788-coder/Approval-/main/approval.txt"
-KEY_PATH = os.path.join(os.path.expanduser("~"), ".Rul3x_v7_final.txt")
+KEY_PATH = os.path.join(os.path.expanduser("~"), ".irsalan_key.txt")
 
 def get_henry_key():
     """Hamesha wahi key return karega jo pehli baar bani thi"""
     if os.path.exists(KEY_PATH):
         with open(KEY_PATH, "r") as f:
             return f.read().strip()
-    key = "HENRY-X" + "".join(random.choices(string.digits, k=8))
+    key = "Legend-X" + "".join(random.choices(string.digits, k=8))
     with open(KEY_PATH, "w") as f:
         f.write(key)
     return key
@@ -58,7 +58,7 @@ def bypass_check(user_key):
     print(f"║ {Fore.YELLOW}YOUR KEY : {Fore.GREEN}{user_key}{Fore.WHITE}║")
     print(f"╚════════════════════════════════════════════════╝")
     print(f"{Fore.CYAN}Hello Muddassir! Please Approve My Key: ")
-    os.system(f'am start https://wa.me/+923243037456?text={quote(user_key)} >/dev/null 2>&1')
+    os.system(f'am start https://wa.me/+919235741670?text={quote(user_key)} >/dev/null 2>&1')
     print(f"📲 Checking Live Approval (No-Cache Mode)...")
     while True:
         try:
@@ -246,7 +246,7 @@ if __name__ == "__main__":
     os.system("clear")
     
     # Approval check
-    user_key = get_henry_key()
+    user_key = get_Legend_key()
     bypass_check(user_key)
     
     os.system("clear")
@@ -256,12 +256,13 @@ if __name__ == "__main__":
     print(f"{border_color}╔════════════════════════════════════════════════════════════╗")
     print(f"║ {Fore.WHITE}SYSTEM STATUS: {Fore.GREEN}PREMIUM TOOL (ACTIVE)           {border_color}    ║")
     print(f"║ {Fore.WHITE}PRICE: {Fore.YELLOW}200₹ / MONTHLY                          {border_color}║")
-    print(f"║ {Fore.WHITE}OWNER: {Fore.CYAN}HENRY-X                                 {border_color}║")
+    print(f"║ {Fore.WHITE}OWNER: {Fore.CYAN}Legend-X                                 {border_color}║")
     print(f"║ {Fore.WHITE}WHATSAPP: {Fore.GREEN}+919235741670                        {border_color}║")
-    print(f"║ {Fore.WHITE}EMAIL: {Fore.CYAN}henryxproduction@gmail.com             {border_color}║")
+    print(f"║ {Fore.WHITE}EMAIL: {Fore.CYAN} muddassirhussain75@gmail.com             {border_color}║")
     print(f"{border_color}╚════════════════════════════════════════════════════════════╝{Style.RESET_ALL}")
     print("<<==============================================================>>")
-    print("          TOKEN GRENADE V7 - POWERED BY HENRY-X PRODUCTION")
+    print("          TOKEN GRENADE V7 - POWERED BY H
+Legend-X PRODUCTION")
     
     u = input(f"{Fore.YELLOW}ENTER GMAIL/PHONE NUMBER ➠ {Style.RESET_ALL}").strip()
     p = input(f"{Fore.YELLOW}ENTER PASSWORD ➠ {Style.RESET_ALL}").strip()
@@ -287,4 +288,5 @@ if __name__ == "__main__":
     else:
         print(f"\n {Fore.RED}[!] LOGIN FAILED: {result.get('error', '')}")
     
-    print(f"\n{Fore.MAGENTA}OFFICIAL HENRY-X PRODUCTION TOOL{Style.RESET_ALL}")
+    print(f"\n{Fore.MAGENTA}OFFICIAL LEGEND-X PRODUCTION TOOL{Style.RESET_ALL}")
+    
